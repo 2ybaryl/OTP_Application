@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "302561416195",
+    "project_id": "otpapplic",
+    "storage_bucket": "otpapplic.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:302561416195:android:255673f0ff4a9a2bcbaa36",
+        "android_client_info": {
+          "package_name": "com.poppins.otpapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "302561416195-a0h7piibb4dtegfdsf3jkblc1cggquu9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAs6KEqBg_tBK2V1Texsc1M4kQaEXwRa-A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "302561416195-a0h7piibb4dtegfdsf3jkblc1cggquu9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
