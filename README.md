@@ -15,6 +15,6 @@ Our Prototype is an application that can present the user with an OTP anywhere, 
 
 ### How to sync the times of the devices?
 
-[![]("")]('https://whimsical.com/XMPM6Y2JDuEznqcntQ3JrN')
+[![alt text](https://user-images.githubusercontent.com/75308834/160415031-734e75b8-0499-40e9-b0fd-c998fbcb4b86.png "Click to see detailed workflow")](https://whimsical.com/XMPM6Y2JDuEznqcntQ3JrN)
 
 We designed a state-of-the-art system for correcting these network delays, by using internet times and system times alike. The Network Time Protocol provides us with the the internet times for the device and the server(though these too are not the correct times because they have a network delay while being fetched from the internet. So we correct this too). Now while exchanging the request, the client also shares it's corrected Internet time with the server so that we get our delays for the request and response respectively. We then subtract the response timing from the total time taken in the cycle to get the client and server in sync with each other. When the User is performing a Login, we can reduce any network delays during the setup stage to the order of milliseconds. This keeps the Server and Application in sync even when the Application is not connected to the backend. This creates a secure way for OTPs to be provided to users without any mobile signals.
