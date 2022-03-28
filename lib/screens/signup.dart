@@ -75,7 +75,7 @@ class _SignupState extends State<Signup> {
               color: Colors.white,
               child: SizedBox(
                 height: size.height * 0.06,
-                width: size.width * 0.25,
+                width: size.width * 0.28,
                 child: Row(children: [
                   SizedBox(
                     width: size.width * 0.025,
@@ -106,7 +106,7 @@ class _SignupState extends State<Signup> {
                   color: Colors.white,
                   child: SizedBox(
                     height: size.height * 0.06,
-                    width: size.width * 0.25,
+                    width: size.width * 0.28,
                     child: Row(children: [
                       const Icon(
                         Icons.login,
